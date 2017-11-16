@@ -1,3 +1,4 @@
+/* Dungeon Master */
 #include <cstdio>
 #include <cstring>
 #include <queue>
@@ -8,7 +9,7 @@ const int MAXN = 35;
 struct point
 {
     int l, r, c;
-    int tme;
+    int tme;        // 比在tme数组中记录更节省时间和内存
     point(int x = 0, int y = 0, int z = 0, int w = 0) {
         l = x;
         r = y;
